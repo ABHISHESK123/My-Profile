@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout Example</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+
+        background-color: #23424a;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #bff5ec;
+        font-size: 21px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        h1 {
+          font-size: 48px;
+          color: aliceblue;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+      #bs-button {
+        background-color: #38cfd9; /* Use provided color */
+        color: #23424a; /* Use provided color */
+        font-family: "Roboto", sans-serif;
+        font-size: 21px;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Responsive layouts don't have <br />
+        to be a struggle
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectimur adipiscing elit, sed do eiusmod
+        <br />
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minien
+        <br />
+
+        veniam
+      </p>
+      <button type="button" id="bs-button">
+        <strong>I WANT TO LEARN</strong>
+      </button>
+    </div>
+  </body>
+</html>
